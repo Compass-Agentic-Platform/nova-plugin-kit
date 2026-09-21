@@ -1,0 +1,25 @@
+{
+  "name": "Nova Plugin Kit",
+  "owner": {
+    "name": "Example Publisher"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "A minimal starter kit for building a Compass marketplace with Nova plugins."
+  },
+  "plugins": [
+    {
+      "id": "example-plugin",
+      "name": "Example Plugin",
+      "source": "./plugins/01-example-plugin",
+      "description": "Demonstrates how to package one skill and one subagent for Nova.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": [
+        "example",
+        "summary",
+        "review"
+      ]
+    }
+  ]
+}

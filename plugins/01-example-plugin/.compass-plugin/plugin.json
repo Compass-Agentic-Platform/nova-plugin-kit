@@ -1,0 +1,15 @@
+{
+  "name": "example-plugin",
+  "version": "1.0.0",
+  "description": "A minimal plugin showing how Nova discovers a skill and a subagent.",
+  "author": {
+    "name": "Example Publisher"
+  },
+  "license": "MIT",
+  "agents": [
+    "./agents/content-reviewer.md"
+  ],
+  "skills": [
+    "./skills/summarize-text/SKILL.md"
+  ]
+}
